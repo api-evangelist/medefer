@@ -1,7 +1,16 @@
 aid: medefer
 name: Medefer
-description: Medefer is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Medefer is a UK digital-first managed clinical services company that connects
+  patients directly with consultant specialists remotely and safely, working in
+  partnership with the NHS. Its virtual, consultant-led model triages and manages
+  patient referrals through remote review, coordinating in-person tests and
+  treatment through a trusted local and national partner network only when they
+  are needed. Backed by Seedcamp, Medefer brings hospital-level specialist
+  expertise into patients' homes and communities, reducing waiting times for NHS
+  and self-pay patients across a range of specialties. Medefer operates a
+  patient/clinician application and a private internal application backend
+  (api.medefer.com) rather than a public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/medefer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://medefer.com/wp-content/uploads/2025/10/0.0_featured-image_1200x628-1.jpg
 tags:
 - Company
+- Healthcare
+- Health
+- NHS
+- Telehealth
+- Digital Health
+- Clinical Services
+- Specialist Care
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://medefer.com
+  url: https://medefer.com
+- type: Blog
+  url: https://medefer.com/knowledge-hub/
+- type: Support
+  url: https://medefer.com/contact/
+- type: PrivacyPolicy
+  url: https://medefer.com/patient-privacy-notice/
+- type: TermsOfService
+  url: https://medefer.com/terms-conditions/
+- type: DomainSecurity
+  url: security/medefer-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
